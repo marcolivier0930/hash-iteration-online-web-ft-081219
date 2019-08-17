@@ -14,7 +14,7 @@ end
 
 def age_appropriate_birthday(age)
   # add your code snippet here!
-    
+    binding.pry
       birthday_kids.each do |kids_name, age|
       puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
