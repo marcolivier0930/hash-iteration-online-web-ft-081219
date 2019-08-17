@@ -1,4 +1,4 @@
- require 'pry'
+
  birthday_kids = {
    "Timmy" => 9, 
    "Sarah" => 6, 
@@ -15,7 +15,9 @@ end
 
 def age_appropriate_birthday(age)
   # add your code snippet here!
-    binding.pry
+  
+    puts age
+    
       birthday_kids.each do |kids_name, age|
       puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
     end
